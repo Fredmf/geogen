@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43E40AFC1AA3556B005F0ED3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43E40AFB1AA3556B005F0ED3 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43E40AF61AA3556B005F0ED3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43E40AF81AA3556B005F0ED3 /* hexahedron-sphere */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hexahedron-sphere"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E40AFB1AA3556B005F0ED3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		43E40B021AA355A8005F0ED3 /* hexahedronsphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hexahedronsphere.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E40AF51AA3556B005F0ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E40AEF1AA3556B005F0ED3 = {
+			isa = PBXGroup;
+			children = (
+				43E40AFA1AA3556B005F0ED3 /* hexahedron-sphere */,
+				43E40AF91AA3556B005F0ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43E40AF91AA3556B005F0ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E40AF81AA3556B005F0ED3 /* hexahedron-sphere */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E40AFA1AA3556B005F0ED3 /* hexahedron-sphere */ = {
+			isa = PBXGroup;
+			children = (
+				43E40AFB1AA3556B005F0ED3 /* main.cpp */,
+				43E40B021AA355A8005F0ED3 /* hexahedronsphere.h */,
+			);
+			path = "hexahedron-sphere";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E40AF71AA3556B005F0ED3 /* hexahedron-sphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E40AFF1AA3556B005F0ED3 /* Build configuration list for PBXNativeTarget "hexahedron-sphere" */;
+			buildPhases = (
+				43E40AF41AA3556B005F0ED3 /* Sources */,
+				43E40AF51AA3556B005F0ED3 /* Frameworks */,
+				43E40AF61AA3556B005F0ED3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hexahedron-sphere";
+			productName = "hexahedron-sphere";
+			productReference = 43E40AF81AA3556B005F0ED3 /* hexahedron-sphere */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E40AF01AA3556B005F0ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = FredMF;
+				TargetAttributes = {
+					43E40AF71AA3556B005F0ED3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 43E40AF31AA3556B005F0ED3 /* Build configuration list for PBXProject "hexahedron-sphere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43E40AEF1AA3556B005F0ED3;
+			productRefGroup = 43E40AF91AA3556B005F0ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E40AF71AA3556B005F0ED3 /* hexahedron-sphere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E40AF41AA3556B005F0ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E40AFC1AA3556B005F0ED3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43E40AFD1AA3556B005F0ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43E40AFE1AA3556B005F0ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43E40B001AA3556B005F0ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43E40B011AA3556B005F0ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E40AF31AA3556B005F0ED3 /* Build configuration list for PBXProject "hexahedron-sphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E40AFD1AA3556B005F0ED3 /* Debug */,
+				43E40AFE1AA3556B005F0ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E40AFF1AA3556B005F0ED3 /* Build configuration list for PBXNativeTarget "hexahedron-sphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E40B001AA3556B005F0ED3 /* Debug */,
+				43E40B011AA3556B005F0ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E40AF01AA3556B005F0ED3 /* Project object */;
+}
